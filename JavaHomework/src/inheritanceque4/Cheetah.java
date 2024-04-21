@@ -4,7 +4,7 @@ Create a subclass called Cheetah that overrides the move() method to run. */
 
 public class Cheetah extends Animal {
     public void move(){
-        System.out.println("run");
+        System.out.println("The cheetah is a fastest animal");
     }
 
     public static void main(String[] args) {

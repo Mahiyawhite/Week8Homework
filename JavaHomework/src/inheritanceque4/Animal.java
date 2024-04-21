@@ -4,6 +4,6 @@ Create a subclass called Cheetah that overrides the move() method to run. */
 
 public class Animal {
     public void move(){
-        System.out.println("Seat");
+        System.out.println("The cheetah is a large cat ");
     }
 }
