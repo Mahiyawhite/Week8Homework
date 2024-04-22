@@ -6,7 +6,7 @@ increase the vehicle's speed differently. */
 public class Vehicle {
     public int Speed;
     public void SpeedUp(){
-        System.out.println("Speeding up the Vehicle");
+        System.out.println("Vehicle speed");
 
     }
 
