@@ -7,4 +7,8 @@ public class CodeBuster {
     public void GroupName(){
         System.out.println("Cherry");
     }
+    public static void main(String[] args) {
+        CodeBuster c = new CodeBuster();
+        c.GroupName();
+    }
 }
