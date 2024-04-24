@@ -6,4 +6,9 @@ public class Animal {
     public void move(){
         System.out.println("The cheetah is a large cat ");
     }
+
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        a.move();
+    }
 }
