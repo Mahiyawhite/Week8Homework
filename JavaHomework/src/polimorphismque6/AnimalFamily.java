@@ -8,9 +8,4 @@ public class AnimalFamily {
         System.out.println("Baa Baa Baa");
     }
 
-    public static void main(String[] args) {
-        AnimalFamily a = new AnimalFamily();
-        a.Sound();
-    }
-
 }
