@@ -3,8 +3,6 @@ package polimorphismque10;
 withdraw(). Create two subclasses SavingsAccount and CheckingAccount. Override the
 withdraw() method in each subclass to impose different withdrawal limits and fees. */
 
-import inheritanceque3.SavingAccount;
-
 public class SavingsAccount_10 extends BankAccount_10 {
     public void deposit() {
         System.out.println();
@@ -13,12 +11,12 @@ public class SavingsAccount_10 extends BankAccount_10 {
     public void withdraw() {
         int amount = 100;
         if (amount >= 10) {
-            System.out.println("Insufficient Balance");
+            System.out.println("Can not Withdraw");
         }
     }
 
     public static void main(String[] args) {
-        SavingAccount s = new SavingAccount();
+        SavingsAccount_10 s = new SavingsAccount_10();
         s.withdraw();
     }
 }
