@@ -11,4 +11,13 @@ public class Motorcycle extends Vehicle {
 public void distancetraveled(){
     System.out.println("Maintain 1 second gap");
 }
+    public void maximumspeed(){
+        System.out.println("I can go slow");
+    }
+    public static void main(String[] args) {
+        Motorcycle m = new Motorcycle();
+        m.fuelefficiency();
+        m.distancetraveled();
+        m.maximumspeed();
+    }
 }

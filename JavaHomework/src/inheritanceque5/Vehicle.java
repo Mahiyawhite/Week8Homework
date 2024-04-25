@@ -5,6 +5,16 @@ properties such as make, model, year, and fuel type. Implement methods for
 calculating fuel efficiency, distance traveled, and maximum speed. */
 
 public class Vehicle {
+    public String make;
+    public String model;
+    public int year;
+    public String fuletype;
+    public Vehicle (){
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.fuletype = fuletype;
+    }
 
     public void fuelefficiency(){
         System.out.println("How far your car can travel");
@@ -13,13 +23,6 @@ public class Vehicle {
         System.out.println("Distance measures the length between objects");
     }
     public void maximumspeed(){
-        System.out.println("It can go very fast.");
-    }
-    public static void main(String[] args) {
-        Vehicle vehicle = new Vehicle();
-        vehicle.fuelefficiency();
-        vehicle.distancetraveled();
-        vehicle.maximumspeed();
-
+        System.out.println("how fast it can go.");
     }
 }

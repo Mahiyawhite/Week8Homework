@@ -11,4 +11,13 @@ public class Truck extends Vehicle {
     public void distancetraveled(){
         System.out.println("Maintain 3 second gap");
     }
+    public void maximumspeed(){
+        System.out.println("I can go very fast");
+    }
+    public static void main(String[] args) {
+        Truck t = new Truck();
+        t.fuelefficiency();
+        t.distancetraveled();
+        t.maximumspeed();
+    }
 }

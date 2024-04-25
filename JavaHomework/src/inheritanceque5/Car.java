@@ -11,4 +11,13 @@ public class Car extends Vehicle {
     public void distancetraveled(){
         System.out.println("Maintain 2 second gap");
     }
+    public void maximumspeed(){
+        System.out.println("I can go average speed");
+    }
+    public static void main(String[] args) {
+        Car c = new Car();
+        c.fuelefficiency();
+        c.distancetraveled();
+        c.maximumspeed();
+    }
 }
