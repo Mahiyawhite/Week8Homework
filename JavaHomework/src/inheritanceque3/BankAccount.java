@@ -13,9 +13,4 @@ public class BankAccount {
         System.out.println("Withdrawn: $" + amount);
     }
 
-    public static void main(String[] args) {
-        BankAccount b = new BankAccount();
-        b.deposit();
-        b.withdraw();
-    }
 }

@@ -11,8 +11,6 @@ public class CodeBusterGroups extends CodeBuster {
     public static void main(String[] args) {
         CodeBusterGroups C = new CodeBusterGroups();
         C.GroupName();
-
-
     }
 }
 

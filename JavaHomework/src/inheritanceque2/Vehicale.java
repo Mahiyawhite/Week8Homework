@@ -7,9 +7,4 @@ public class Vehicale {
     public void drive(){
         System.out.println("Drive safe");
     }
-
-    public static void main(String[] args) {
-        Vehicale v = new Vehicale();
-        v.drive();
-    }
 }
