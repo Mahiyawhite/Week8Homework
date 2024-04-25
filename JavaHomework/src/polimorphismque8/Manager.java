@@ -6,6 +6,11 @@ specific roles. */
 
 public class Manager extends Employee {
     public void calculateSalary() {
-        System.out.println();
+        System.out.println("Manager Salary: 25000");
+    }
+
+    public static void main(String[] args) {
+        Manager m = new Manager();
+        m.calculateSalary();
     }
 }

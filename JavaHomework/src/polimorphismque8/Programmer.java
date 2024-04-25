@@ -4,13 +4,13 @@ calculateSalary(). Create two subclasses Manager and Programmer. In each subclas
 override the calculateSalary() method to calculate and return the salary based on their
 specific roles. */
 
-public class Employee {
+public class Programmer extends Employee {
+    public void calculateSalary() {
+        System.out.println("Programmer Salary: 30000");
+    }
 
-    public void calculateSalary(){
-        System.out.println("Employee Salary: 10000");
-
+    public static void main(String[] args) {
+        Programmer p = new Programmer();
+        p.calculateSalary();
     }
 }
-
-
-
