@@ -1,4 +1,4 @@
-package programmeque1;
+package programme1;
 /* Read 10 numbers from the console entered by the user and print the sum of those
 numbers.
 -Use the hasNextInt() method from the scanner to check if the user has entered an int value.
